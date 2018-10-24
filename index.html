@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<div class="container mainCard">
+
+    <h1 class="primary"><a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank"><i class="fa fa-wikipedia-w myWikiIcon" aria-hidden="true"></i></a>ikipedia Viewer</h1>
+
+    <div class="row">
+
+        <div class="col-sm-6 leftCard">
+            <h4 class="myTitle">Search an article</h4>
+
+            <form onSubmit="return false">
+                <input type="text" class="myInput form-control" id="myWikiSearch">
+
+                <button type="button" class="btn btn-primary" id="myWikiButton">Search</button>
+
+            </form><!-- End of form-->
+
+        </div><!-- End of leftCard div-->
+
+        <div class="col-sm-6 rightCard">
+            <h4 class="myTitle">Feeling adventurous?</h4>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-magic myLuckyIcon" aria-hidden="true"></i></a>
+        </div><!-- End of rightCard div-->
+
+    </div><!-- End of row div-->
+
+    <ul class="myUl" id="myWikiOutput"></ul>
+
+</div><!-- End of mainCard div-->
+
+<p class="myFooter"><i class="fa fa-code" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/samlegros/" target="_blank">Sam Legros</a></p>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
+</html>

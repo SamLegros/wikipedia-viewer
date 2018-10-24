@@ -1,0 +1,84 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background: #B8B2FB;
+    color: #B8B2FB;
+}
+
+.mainCard {
+    margin: auto;
+    margin-top: 85px;
+    padding: 40px 50px 40px 50px;
+    max-width: 650px;
+    background: #3B245D;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.myWikiIcon {
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.myTitle {
+    margin: 30px 0px 20px 0px;
+}
+
+.myInput {
+    margin: auto;
+    max-width: 75%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    border-radius: 50px;
+    background: none;
+    color: #FFFFFF;
+}
+
+#myWikiButton {
+    visibility: hidden;
+}
+
+.myLuckyIcon {
+    font-size: 35px;
+    color: #FFFFFF;
+    animation-delay: 1.5s;
+}
+
+.myUl {
+    margin: 0px 0px 0px -40px;
+}
+
+.myLi {
+    margin: 0px auto;
+    list-style: none;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background: #304384;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.myLiP {
+    color: #B8B2FB;
+}
+
+li:hover {
+    background: #1e2a51;
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.myFooter {
+    margin-top: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
